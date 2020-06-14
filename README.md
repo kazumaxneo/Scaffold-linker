@@ -1,2 +1,2 @@
 ### Scaffold-linker
-Scripts for your own research
+Scripts for my own research purpose
