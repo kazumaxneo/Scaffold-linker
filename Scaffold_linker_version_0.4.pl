@@ -487,26 +487,26 @@ for(my $l = 1;$l <= 20;$l++){#20に分割する
 	}
 }
 system("cp /Users/user/perl_script/step4-2.pl ./temporary");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_1 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_2 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_3 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_4 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_5 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_6 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_7 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_8 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_9 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_10 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_11 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_12 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_13 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_14 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_15 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_16 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_17 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_18 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_19 &");
-system("perl /Volumes/macbookpro_2015_backup/Users/kazumaxneo/perl_script/step4-2.pl R2_20");
+system("perl ./bin/step4-2.pl R2_1 &");
+system("perl ./bin/step4-2.pl R2_2 &");
+system("perl ./bin/step4-2.pl R2_3 &");
+system("perl ./bin/step4-2.pl R2_4 &");
+system("perl ./bin/step4-2.pl R2_5 &");
+system("perl ./bin/step4-2.pl R2_6 &");
+system("perl ./bin/step4-2.pl R2_7 &");
+system("perl ./bin/step4-2.pl R2_8 &");
+system("perl ./bin/step4-2.pl R2_9 &");
+system("perl ./bin/step4-2.pl R2_10 &");
+system("perl ./bin/step4-2.pl R2_11 &");
+system("perl ./bin/step4-2.pl R2_12 &");
+system("perl ./bin/step4-2.pl R2_13 &");
+system("perl ./bin/step4-2.pl R2_14 &");
+system("perl ./bin/step4-2.pl R2_15 &");
+system("perl ./bin/step4-2.pl R2_16 &");
+system("perl ./bin/step4-2.pl R2_17 &");
+system("perl ./bin/step4-2.pl R2_18 &");
+system("perl ./bin/step4-2.pl R2_19 &");
+system("perl ./bin/step4-2.pl R2_20");
 system("sleep 5s");
 
 system("cp temporary/NODE1 temporary/another_contig_paired2.txt");system("sleep 2s");
